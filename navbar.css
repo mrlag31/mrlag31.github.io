@@ -1,0 +1,46 @@
+#navbar {
+    width: 100%;
+    background-color: var(--yob-10);
+
+    border-bottom-color: var(--yob-40);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    min-width: 450px;
+}
+
+#navbar-inner {
+    flex: 1;
+    max-width: 980px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin: 10px 20px;
+}
+
+#navbar-inner > #navbar-homepage {
+    font-size: 20px;
+    text-align: center;
+}
+  
+#navbar-inner > #navbar-homepage > a {
+    color: var(--yob-100);
+    text-decoration: none;
+}
+
+#navbar-inner > #navbar-about {
+    font-size: 20px;
+    text-align: center;
+}
+
+#navbar-inner > #navbar-about > a {
+    color: var(--yob-100);
+    text-decoration: none;
+}

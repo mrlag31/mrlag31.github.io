@@ -1,0 +1,25 @@
+:root {
+    --yob-0: #000000;
+    --yob-10: #1a1a1a;
+    --yob-20: #333333;
+    --yob-40: #666666;
+    --yob-60: #999999;
+    --yob-80: #cccccc;
+    --yob-100: #ffffff;
+  
+    --yob-font: Montserrat, Roboto, sans-serif;
+}
+  
+html, body {
+    margin: 0;
+    min-height: 100vh;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--yob-0);
+    color: var(--yob-100);
+    font-family: var(--yob-font);
+}
